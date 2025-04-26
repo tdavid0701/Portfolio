@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Purple to Blue gradient */
+    color: white;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+
+section {
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+.project {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 600px;
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #ddd;
+}
+
+
+#contact a {
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+#click-counter {
+    margin-top: 50px;
+}
+
+#clickButton {
+    background-color: #ffcc00;
+    color: #333;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#clickButton:hover {
+    background-color: #ffaa00;
+}
