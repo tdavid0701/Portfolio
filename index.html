@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tim's Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+    <header>
+        <h1>Hi, I'm Tim</h1>
+        <p>I build fast, clean websites for businesses and entrepreneurs. I even built this page!</p>
+    </header>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <h3>Simple Website</h3>
+            <p>A simple responsive landing page using HTML, Javascript, & CSS.</p>
+            <a href="https://tdavid0701.github.io/Simple-Website/" target="_blank">View Live</a> |
+            <a href="https://github.com/tdavid0701/Simple-Website" target="_blank">View Code</a>
+        </div>
+
+        <div class="project">
+            <h3>Cat Blog</h3>
+            <p>A Blog landing page using HTML.</p>
+            <a href="https://tdavid0701.github.io/Blog/" target="_blank">View Live</a> |
+            <a href="https://github.com/tdavid0701/Blog" target="_blank">View Code</a>
+        </div>
+
+       </section>
+
+       <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a passionate web developer starting my journey into tech. I love building clean, user-friendly websites and I'm always learning new tools to improve my craft.</p>
+    </section>
+
+    <section id="click-counter">
+        <h2>Click the Button!</h2>
+        <button id="clickButton">Clicked 0 times</button>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email me at: <a href="mailto:tdavid0701@gmail.com">tdavid0701@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Tim David. All rights reserved.</p>
+    </footer>
+    <script>
+        let count = 0;
+    
+        const button = document.getElementById('clickButton');
+        button.addEventListener('click', () => {
+            count++;
+            button.textContent = `Clicked ${count} times`;
+        });
+    </script>
+</body>
+</html>
